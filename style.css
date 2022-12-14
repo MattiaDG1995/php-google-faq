@@ -61,6 +61,7 @@ nav{
     right: 0;
     left: 0;
     margin-bottom: 50px;
+    padding: 10px 20px;
 }
 
 nav span{
@@ -71,10 +72,6 @@ nav span{
     color: #3367D6;
     box-shadow: 0px 5px #3367D6;
     padding-bottom: 8px;
-}
-
-hr{
-    margin-top: 10px;
 }
 
 
