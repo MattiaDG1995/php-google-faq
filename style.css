@@ -13,6 +13,11 @@ body{
 
 header{
     padding: 20px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 .contHeader{
@@ -46,7 +51,16 @@ header{
 }
 
 nav{
-    margin-top: 20px;
+   /*  margin-top: 20px; */
+    color: grey;
+    background-color: white;
+    box-shadow: 0px 1px grey;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 67px;
+    right: 0;
+    left: 0;
+    margin-bottom: 50px;
 }
 
 nav span{
@@ -55,4 +69,28 @@ nav span{
 
 .blue{
     color: #3367D6;
+    box-shadow: 0px 5px #3367D6;
+    padding-bottom: 8px;
+}
+
+hr{
+    margin-top: 10px;
+}
+
+
+.cont{
+    width: 60%;
+    margin: 0 auto;
+    overflow-y: auto;
+    display: hidden;
+}
+
+.risp{
+    padding: 20px 0px;
+    color: rgb(75, 73, 73);
+}
+
+h1{
+    margin-top: 25px;
+    color: rgb(49, 47, 47);
 }
